@@ -494,6 +494,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 20px;
+  text-align: center;
   min-height: 40px;
   border: 1px solid #009b44;
   color: #009b44;
@@ -558,5 +559,22 @@ body {
   border: 1px solid #8a8a8a;
   background-color: #ffffff;
   z-index: 11;
+}
+
+@media (max-width: 1220px) {
+  .sale-price-promo-wrp {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sale-price-promo {
+    width: 127px;
+    margin-right: 0;
+    padding-left: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

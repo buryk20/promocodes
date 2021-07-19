@@ -4,6 +4,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 20px;
+    text-align: center;
     @include btnGreen;
 }
 
@@ -58,4 +59,16 @@
     border: 1px solid $color-text-grey;
     background-color: #ffffff;
     z-index: 11;
+}
+
+@media (max-width: 1220px) {
+    .sale-price-promo-wrp {
+        align-items: center;
+        flex-direction: column;
+    }
+    .sale-price-promo {
+        width: 127px;
+        margin-right: 0;
+        padding-left: 0;
+    }
 }
