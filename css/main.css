@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .btn-reviews-green, .sale-price-promo > p {
   padding: 8px 16px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 6px;
   font-size: 18px;
 }
@@ -35,24 +34,14 @@
 }
 
 .name-orders-link, .menu-cab-wrp-link, .menu-cab-like-wrp, .reviews-product-wrp, .wrp-bonus-reviews, .wrp-answer-reviews {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .menu-cab-wrp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 html,
@@ -78,8 +67,7 @@ body {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 0 none;
   background-color: transparent;
   scroll-behavior: smooth;
@@ -158,7 +146,6 @@ select {
 input,
 textarea {
   outline: none;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -169,12 +156,9 @@ label {
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
   * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
@@ -187,9 +171,7 @@ label {
   width: 100%;
   max-width: 1440px;
   padding-top: 16px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
 }
 
 .name-orders {
@@ -205,8 +187,7 @@ label {
 
 .name-orders-link {
   min-height: 72px;
-  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
   font-family: "Roboto", sans-serif;
   color: #363636;
   border-radius: 8px;
@@ -227,9 +208,7 @@ label {
 }
 
 .menu-cab-like-pos {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .menu-cab-wrp-link:hover {
@@ -238,18 +217,11 @@ label {
 
 .menu-cab-user {
   padding: 10px 14px;
-  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
 }
 
 .menu-cab-text-wrp + .menu-cab-text-wrp {
@@ -283,21 +255,14 @@ body {
   border: 1px solid #009b44;
   color: #009b44;
   font-size: 18px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-weight: 400;
 }
 
 .wrp-reviews {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   font-weight: 600;
   font-size: 16px;
 }
@@ -318,15 +283,12 @@ body {
 }
 
 .reviews-icon-mob-wrp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .reviews-list-wrp {
+  padding: 0;
   margin-bottom: 24px;
   width: 1107px;
   padding: 24px 14px;
@@ -336,11 +298,9 @@ body {
 .wrp-cont-rev {
   margin-bottom: 10px;
   padding-right: 14px;
-  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .reviews-product-wrp {
@@ -376,8 +336,6 @@ body {
 }
 
 .wrp-revires-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -454,10 +412,7 @@ body {
     padding: 14px 9px;
   }
   .wrp-reviews {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .wrp-revires-btn {
     margin-bottom: 16px;
@@ -495,12 +450,12 @@ body {
   font-size: 24px;
   line-height: 20px;
   text-align: center;
+  border-radius: 8px;
   min-height: 40px;
   border: 1px solid #009b44;
   color: #009b44;
   font-size: 18px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-weight: 400;
 }
 
@@ -509,6 +464,11 @@ body {
   padding-left: 6px;
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.promo-list-wrp {
+  width: 1107px;
+  position: relative;
 }
 
 .sale-text-wrp-promo > h3 {
@@ -527,14 +487,10 @@ body {
 }
 
 .sale-price-promo-wrp {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .promo-wrp-copy {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -561,15 +517,42 @@ body {
   z-index: 11;
 }
 
+.promotions-wrp {
+  padding-top: 10px;
+}
+
+.promotions-data {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.promotions-data > p {
+  margin-bottom: 16px;
+  padding-top: 16px;
+  font-size: 16px;
+}
+
+.promotion-img {
+  max-width: 368px;
+  width: 100%;
+}
+
+.promotions-data > a > p {
+  max-width: 215px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.promotion-data-wrp {
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+}
+
 @media (max-width: 1220px) {
   .sale-price-promo-wrp {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    align-items: center;
+    flex-direction: column;
   }
   .sale-price-promo {
     width: 127px;
@@ -577,4 +560,3 @@ body {
     padding-left: 0;
   }
 }
-/*# sourceMappingURL=main.css.map */
