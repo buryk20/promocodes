@@ -55,7 +55,7 @@
   line-height: 20px;
 }
 
-.promo-wrp-copy > p {
+.promo-input-copy {
   position: relative;
   width: 100%;
   padding: 12px 16px 12px 16px;
@@ -64,6 +64,7 @@
   border-radius: 8px;
   border: 1px solid $color-text-grey;
   background-color: #ffffff;
+  text-align: center;
   z-index: 11;
 }
 
@@ -118,7 +119,7 @@
   padding: 5px 0;
   color: $color-main;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (max-width: 1220px) {
@@ -191,15 +192,14 @@
     padding-top: 8px;
   }
   .wrp-cont-rev {
-    // padding-left: 24px;
     padding-right: 0;
   }
   .wrp-answer-reviews {
     display: none;
   }
-  .number-counter {
-    display: block;
-  }
+  // .number-counter {
+  //   display: block;
+  // }
   .promo-list-wrp {
     width: 363px;
     padding: 0 9px;
