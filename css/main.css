@@ -725,7 +725,7 @@ body {
   .wrp-bonus-reviews > p {
     width: 97px;
   }
-  .reviews-icon-mob-wrp > h1 {
+  .reviews-icon-mob-wrp > h1, h2 {
     font-size: 16px;
   }
   .reviews-icon-mob-wrp > img {
